@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import resumePictureUrl from "./assets/img/photo-cv.jpeg";
 import gitlandingPicture from "./assets/img/gitlanding.png";
+import semasimPicture from "./assets/img/semasim.png";
 
 function Resume(){
   return <div className="contentWrapper">
@@ -25,14 +26,12 @@ function Resume(){
       <div>
         <img src={resumePictureUrl} alt="resume"/>
         <p>
-          I am a front-end Developer; able to build complex
-          web components with React,
-          I have contributed to Onyxia-ui, an open source
-          Design system based on Material ui.
-          My preferred activity is to work on open source projects
-          and I am passionate about typescript.
-          I also used to be a professional musician, so team work is something
-          I am conformable with.
+          Hi, my name is William and I am a front-end web Developer, able to build complex
+          React components.
+          My main calling as a developer is to involve myself in open source projects.
+          I am also passionate about Typescript and would advocate for its general adoption.
+          Having worked for many years as a professional musician, team work is definitely something 
+          that I feel comfortable with.
         </p>
 
       </div>
@@ -142,6 +141,10 @@ function Resume(){
           <em>2018 - current</em>
         </div>
         <div>
+          <div>
+            <em>One Phone, Multiple SIM Cards</em>
+            <img src={semasimPicture} alt="semasim" />
+          </div>
           <p>
             Semasim is a tech company centred around a GSM gateway app.
             It enables users to make use of SIM cards that are not inside their phones.
