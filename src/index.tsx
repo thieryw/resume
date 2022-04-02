@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import resumePictureUrl from "./assets/img/photo-cv.jpeg";
+//import resumePictureUrl from "./assets/img/photo-cv.jpeg";
 import gitlandingPicture from "./assets/img/gitlanding.png";
 import semasimPicture from "./assets/img/semasim.png";
 
@@ -24,14 +24,15 @@ function Resume(){
       <hr/>
 
       <div>
-        <img src={resumePictureUrl} alt="resume"/>
+        {/*<img src={resumePictureUrl} alt="resume"/>*/}
         <p>
-          Hi, my name is William and I am a front-end web Developer, able to build complex
-          React components.
+          Hi, my name is William and I am a Developer, focused on the React ecosystem.
           My main calling as a developer is to involve myself in open source projects.
           I am also passionate about Typescript and would advocate for its general adoption.
-          Having worked for many years as a professional musician, team work is definitely something 
-          that I feel comfortable with.
+          For 7 years I have worked as a professional musician before deciding to pursue a career in software
+          development with the help of a mentor. I am a regular contributor on several open source projects
+          and I also work as a freelance web developer.
+         
         </p>
 
       </div>
@@ -135,6 +136,23 @@ function Resume(){
       </div>
       <div>
         <div>
+          <h4>SSPCloud</h4>
+          <em><a href="https://github.com/InseeFrLab/www.sspcloud.fr">www.sspcloud.fr</a></em>
+          <h4>Contributor</h4>
+          <em>2021 - current</em>
+        </div>
+        <div>
+          <p>
+            A shared platform for the processing of public data and data science. 
+            It enables data scientists and statisticians to easily connect to
+            different services and work environments via a simple and intuitive user interface.
+          </p>
+
+
+        </div>
+      </div>
+      <div>
+        <div>
           <h4>Semasim</h4>
           <em><a href="https://semasim.com">www.semasim.com</a></em>
           <h4>Web developer</h4>
@@ -172,31 +190,44 @@ function Resume(){
       <hr />
       <div>
         <div>
-          <h4>Languages in which I am proficient</h4>
+          <h4>Languages with which I am proficient</h4>
           <p>JavaScript Typescript</p>
         </div>
         <div>
+          <h4>
+            Languages with which I have some experience 
+          </h4>
+          <p>C, Ada, Java</p>
+        </div>
+        <div>
           <h4>JS Runtime</h4>
-          <p>Node js</p>
+          <p>Node.js, Browsers</p>
         </div>
         <div>
           <h4>Front-end framework</h4>
           <p>React is my specialty</p>
         </div>
         <div>
-          <h4>Libraries</h4>
-          <p>
-            Rxjs, all though I it find some what difficult so I prefer
-            to use Evt for most cases.<br />
-            I use Material-ui on a daily basis
-          </p>
+          <h4>
+            System administration
+          </h4>
+          <p>I have experience using UNIX systems, SSH and Amazon Web Service.</p>
+        </div>
+        <div>
+          <h4>Databases</h4>
+          <p>I can design and query relational databases using MySQL</p>
         </div>
         <div>
           <h4>Devops</h4>
           <p>
-            I am able to use Github actions features
+            I am able to use Github actions
           </p>
-
+        </div>
+        <div>
+          <h4>Network</h4>
+          <p>
+            A good understanding of the TSP/IP stack and of the web in general
+          </p>
         </div>
       </div>
     </section>
